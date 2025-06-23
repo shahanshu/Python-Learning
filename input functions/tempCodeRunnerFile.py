@@ -1,0 +1,5 @@
+x,y,z= input("enter three numbers seperated by space").split()
+# x= float(x)
+# y=float(y)
+# z=float(z)
+# print("sum of the three numbers are: ", int(x+y+z))
