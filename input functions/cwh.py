@@ -1,0 +1,5 @@
+# name=input("enter name: ")
+# print("hellow ! ", name )
+x=input("enter first ")
+y=input("enter first ")
+print(x%y)
