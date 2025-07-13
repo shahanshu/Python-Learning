@@ -44,7 +44,7 @@ name()
 
 # print(foodList)
 
-"""same using the walrus operator"""
+
 """Combined input and condition check using walrus operator:"""
 
 foodList=[]
