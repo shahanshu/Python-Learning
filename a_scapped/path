@@ -1,0 +1,24 @@
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:darazSpace:default_30989755.html?qrcode=7A1QwiVtlXAAVftkVJD8qg|aHeSOw|GZ0tIw_0|BmzqJA&uuid=ec0d50c2256d95700055fb645490fcaa&action=deny&origin=https%3A%2F%2Fwww.daraz.com.np%3A443%2Fproducts%2Fiphone-11-pro-max-electroplated-imd-magsafe-pc-hybrid-tpu-mobile-phone-case-cover-purple-i176659777-s1199767880.html"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+ window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:darazSpace:default_30989755.html?qrcode=7A1QwiVtlXAAVftkVJD8qg|aHeSOw|GZ0tIw_0|BmzqJA&uuid=ec0d50c2256d95700055fb645490fcaa&action=deny&origin=https%3A%2F%2Fwww.daraz.com.np%3A443%2Fproducts%2Fiphone-11-pro-max-electroplated-imd-magsafe-pc-hybrid-tpu-mobile-phone-case-cover-purple-i176659777-s1199767880.html"
+};
+</script>
+<!--rgv587_flag:sm-->
