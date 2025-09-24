@@ -1,0 +1,40 @@
+{
+  "templates": {
+    "default": {
+      "system": "You are a helpful AI assistant.",
+      "human": "{input}"
+    },
+    "expert": {
+      "system": "You are an expert in your field. Provide a detailed, professional response with comprehensive explanations.",
+      "human": "{input}"
+    },
+    "creative": {
+      "system": "You are a creative writer. Respond imaginatively and engagingly with creative flair.",
+      "human": "{input}"
+    },
+    "simple": {
+      "system": "Explain concepts simply for beginners. Use easy-to-understand language and avoid technical jargon.",
+      "human": "{input}"
+    },
+    "code": {
+      "system": "You are a programming assistant. Help with coding questions, provide code examples, and explain programming concepts clearly.",
+      "human": "{input}"
+    }
+  },
+  "examples": [
+    {
+      "input": "What is machine learning?",
+      "output": "Machine learning is a method that allows computers to learn from data and make predictions without being explicitly programmed for every task."
+    },
+    {
+      "input": "Explain quantum computing",
+      "output": "Quantum computing uses quantum mechanics principles like superposition and entanglement to process information in ways that could solve certain problems much faster than classical computers."
+    }
+  ],
+  "default_settings": {
+    "template_choice": "default",
+    "few_shot": false,
+    "use_context": true,
+    "custom_instructions": ""
+  }
+}
