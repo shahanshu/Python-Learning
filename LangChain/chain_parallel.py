@@ -52,3 +52,5 @@ SVM is short for Support Vector Machine, a supervised machine learning algorithm
 result = chain.invoke({'topic': topic})
 
 print(result)
+
+chain.get_graph().print_ascii()
