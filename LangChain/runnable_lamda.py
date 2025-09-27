@@ -39,4 +39,6 @@ chain_final=chain_gen_joke | chain_parallel
 response= chain_final.invoke({
     'topic':'ai'
 })
-chain_final.get_graph().print_ascii()
+final_result ="""{} \n word counts -{}""".format(response['joke'],response['word'])
+
+print(final_result)
