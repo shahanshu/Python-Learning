@@ -57,7 +57,7 @@ vectore_store= Chroma(
 
 #add documents
 
-# vectore_store.add_documents(docs)
+# persist_directory="./retivers_db" 
 
 '''
 results = vectore_store.get(include=["embeddings","documents", "metadatas"])
@@ -65,7 +65,7 @@ print(results)
 '''
 check = vectore_store.similarity_search_with_score(
     "which one is related to the netwons laws",
-    k=2
+    k=4
 )
 for i ,score in check:
     print(f"score : {score:4f} \n content - {i.page_content} the lower the score the better the doc " )
